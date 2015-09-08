@@ -6,6 +6,7 @@
 //  Copyright (c) 2015年 airbunny. All rights reserved.
 //
 #include<stdio.h>
+#include"config.h"
 
 void fTest()
 {
