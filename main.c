@@ -7,21 +7,13 @@
 //
 
 #include <stdio.h>
-//#include “config.h”
 
-void testfun(void)
+void testfun()
 {
     printf(“test\n”);
 }
 
 void main() 
 {
-    // insert code here...
-    
-    int a = 15;
-
-    for(int i = 0;i < 100; i++)
-    	a = a + 1;
-
     testfun();
 }
