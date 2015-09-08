@@ -7,9 +7,14 @@
 //
 
 #include <stdio.h>
-#include “config.h”
+//#include “config.h”
 
-int main() 
+void testfun(void)
+{
+    printf(“test\n”);
+}
+
+void main() 
 {
     // insert code here...
     
@@ -18,5 +23,5 @@ int main()
     for(int i = 0;i < 100; i++)
     	a = a + 1;
 
-    return 0;
+    testfun();
 }
