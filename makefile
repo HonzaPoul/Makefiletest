@@ -7,8 +7,9 @@ filelist = main.o pid.o motor/motor.o
 #######################################
 #path define
 #######################################
-dir_motor_c = motor/motor.c
-dir_motor = $(dir_motor_c) motor/motor_h 
+dir_motor_dir = motor/
+dir_motor_c = $(dir_motor_dir)motor.c
+dir_motor = $(dir_motor_c) $(dir_motor_dir)motor_h 
 
 
 ########################################
@@ -28,3 +29,4 @@ motor.o:$(dir_motor)
 #########################################
 clean:
 	rm -rf *.o main
+	rm -rf $(dir_motor_dir)*.o main
