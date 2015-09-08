@@ -16,6 +16,14 @@ void fTest()
 
 int main()
 {
+    float fA;
+    
+    fA = fPID(3);
+    
+    printf("res=%f\n\n",fA);
+    
+    fMotortest();
+    
     fTest();
     
     return 0;
