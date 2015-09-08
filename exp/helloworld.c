@@ -3,10 +3,12 @@
 
 void printHello()
 {
-    printf("make it");
+    printf("21cn.shit\n");
 }
 
-void main()
+int main()
 {
     printHello();
+
+    return 0;
 }

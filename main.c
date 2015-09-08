@@ -5,15 +5,18 @@
 //  Created by airbunny on 15/4/16.
 //  Copyright (c) 2015年 airbunny. All rights reserved.
 //
+#include<stdio.h>
 
-#include <stdio.h>
-
-void testfun()
+void fTest()
 {
-    printf(“test\n”);
+    printf("what's now?\n");
+    
 }
 
-void main() 
+int main()
 {
-    testfun();
+    fTest();
+    
+    return 0;
+    
 }
