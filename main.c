@@ -17,6 +17,7 @@ void fTest()
 int main()
 {
     float fA;
+    int nA = 1;
     
     fA = fPID(3);
     
@@ -25,6 +26,17 @@ int main()
     fMotortest();
     
     fTest();
+    
+    while(nA)
+    {
+        printf("input:");
+        scanf("%d",&nA);
+        
+        printf("input is:%d\n\n",nA);
+        
+    }
+    
+    getchar();
     
     return 0;
     
